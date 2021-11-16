@@ -1,18 +1,5 @@
-import Convertor from './convertor'
-import doctor from './doctor'
-import Project from './create/project'
-import { Compiler as H5Compiler } from './h5/index'
+import { printPkgVersion } from './util'
+import CLI from './cli'
+printPkgVersion()
 
-export default {
-  Convertor,
-  doctor,
-  Project,
-  H5Compiler
-}
-
-export {
-  Convertor,
-  doctor,
-  Project,
-  H5Compiler
-}
+new CLI().run()
