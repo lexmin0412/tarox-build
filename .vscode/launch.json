@@ -8,11 +8,11 @@
 		"type": "node",
 		"request": "launch",
 		"name": "CLI debug",
-		"program": "${workspaceFolder}/bin/taro",
+		"program": "${workspaceFolder}/bin/tarox-build",
 		"skipFiles": [
 			"<node_internals>/**"
 		],
-		"cwd": "/Users/cellerchan/code/git_repos/taro-template",
+		"cwd": "/Users/cellerchan/code/git_repos/taro-template-build-mvp",
 		"args": [
 			"build",
 			"--type",
