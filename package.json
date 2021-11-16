@@ -1,5 +1,5 @@
 {
-  "name": "@tarojs/cli",
+  "name": "@tarox/build",
   "version": "2.2.18",
   "description": "cli tool for taro",
   "main": "index.js",
