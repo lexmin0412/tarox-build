@@ -1,6 +1,6 @@
 {
   "name": "@tarox/build",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "taro构建工具",
   "main": "index.js",
   "scripts": {
