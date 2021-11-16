@@ -7,7 +7,7 @@ import build from './commands/build'
 
 export default class CLI {
   appPath: string
-  constructor (appPath) {
+  constructor (appPath?: string) {
     this.appPath = appPath || process.cwd()
   }
 
