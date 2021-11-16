@@ -28,7 +28,7 @@
     "url": "git+https://github.com/NervJS/taro.git"
   },
   "bin": {
-    "taro": "bin/taro"
+    "tarox-build": "bin/tarox-build"
   },
   "keywords": [
     "taro",
